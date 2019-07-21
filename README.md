@@ -2,6 +2,12 @@
 
 Part of Zia Assimilate | An Ultimate Tech. Bootcamp
 
+## Requirements
+
+1) [Sublime Text 3](https://www.sublimetext.com/)
+2) [Visual Studio Code](https://code.visualstudio.com/)
+3) [XAMPP for Windows](https://www.apachefriends.org/download.html) | [MAMP for MacOS](https://www.mamp.info/en/) | [LAMP for Linux](https://bitnami.com/stack/lamp/installer)
+
 ## Curriculum
 
 ```html
@@ -16,7 +22,7 @@ Part of Zia Assimilate | An Ultimate Tech. Bootcamp
     -> JS
 
 *CSS and JS Frameworks/Library.
-    ->Bootstrap
+    -> Bootstrap
 
 *Intro. to server-side scripting.
     -> Request-Response Cycle
@@ -33,7 +39,7 @@ Part of Zia Assimilate | An Ultimate Tech. Bootcamp
 *Intro. to CMS.
     -> Wordpress
 
-* Intro. to web frameworks.
+*Intro. to web frameworks.
     -> Laravel - PHP
     -> Django - Python
 ```
