@@ -1,12 +1,104 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>JavaScript</title>
-</head>
-<body>
-    
-</body>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Welcome to HTML5</title>
+    <link
+      href="https://fonts.googleapis.com/css?family=Exo&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./style.css" />
+    <style>
+      * {
+        margin: 0;
+        font-family: "Exo", sans-serif;
+      }
+      .header {
+        text-align: center;
+        background: #89b095;
+        padding: 20px;
+      }
+
+      .main_body {
+        background: #4287f5;
+        padding: 20px;
+      }
+
+      .content {
+        width: 60%;
+        margin: 0px auto 30px auto;
+        padding: 20px;
+        text-align: center;
+        letter-spacing: 0.2rem;
+        box-shadow: 10px 10px 1px #6b7078;
+        border: 1px solid #6b7078;
+      }
+
+      .content:hover {
+        background: #6b7078;
+      }
+
+      .footer {
+        text-align: center;
+        padding: 20px;
+        background: #89b095;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="header">
+      <h1>Cascading Style Sheet</h1>
+    </div>
+    <section class="main_body">
+      <div class="content">
+        <h2>I love playin' with CSS.</h2>
+        <p>
+          Lorem ipsum dolor sit, amet consectetur adipisicing elit. Eligendi
+          similique quia a tenetur! Cumque, quos qui sit doloribus temporibus a
+          est! Provident iusto architecto consequuntur doloribus non beatae
+          assumenda ducimus!
+        </p>
+      </div>
+      <div class="content">
+        <h2>I love playin' with CSS.</h2>
+        <p>
+          Lorem ipsum dolor sit, amet consectetur adipisicing elit. Eligendi
+          similique quia a tenetur! Cumque, quos qui sit doloribus temporibus a
+          est! Provident iusto architecto consequuntur doloribus non beatae
+          assumenda ducimus!
+        </p>
+      </div>
+      <div class="content">
+        <h2>I love playin' with CSS.</h2>
+        <p>
+          Lorem ipsum dolor sit, amet consectetur adipisicing elit. Eligendi
+          similique quia a tenetur! Cumque, quos qui sit doloribus temporibus a
+          est! Provident iusto architecto consequuntur doloribus non beatae
+          assumenda ducimus!
+        </p>
+      </div>
+    </section>
+    <section id="authentication">
+      <form id="auth-form" action="/">
+        <h1>User Login</h1>
+        <div class="form-group">
+          <label for="username">Username</label><br />
+          <input type="text" name="username" id="username" /><br />
+          <div id="username-msg" style="color: white;"></div>
+        </div>
+        <div class="form-group">
+          <label for="password">Password</label><br />
+          <input type="password" name="password" id="password" /><br />
+          <div id="password-msg" style="color: white;"></div>
+        </div>
+        <input type="submit" value="Submit" id="submit" />
+      </form>
+    </section>
+    <div class="footer">
+      <p>All rights reserved | Zia Assimilate</p>
+    </div>
+    <script src="./script.js"></script>
+  </body>
 </html>
